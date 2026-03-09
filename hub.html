@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  <title>hub</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <style>
+      body 
+      {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('images/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+      .container {
+        width: 80%;
+        max-width: 300px;
+        margin: 10% auto;
+        text-align: center;
+      }
+      .container .logo {
+        width: 55%;
+        height: auto;
+        margin-bottom: 0px;
+        margin-left: 0px;
+      }
+      .container p {
+        margin: 0;
+        font-family: 'Lato';
+        font-size: 1em;
+        color: #666;
+      }
+      .container p1 {
+        margin: 0;
+        font-family: 'Lato';
+        font-size: 1em;
+        color: #1b1b1b;
+      }
+      .container button {
+        margin: 0px 417px 0px -417px;
+        padding: 10px;
+        background-color: #242424;
+        border: solid;
+        border-radius: 10px;
+	    color: #242424;
+        display: inline-block;
+ 	    line-height: 0px;
+        width: 70px;
+		height: 25px;
+       }
+      .container button1 {
+        margin: 0px 0px 0px 0px;
+        padding: 10px;
+        background-color: #2b2b2b;
+        border: solid #111;
+        border-radius: 10px;
+        cursor: pointer;
+	    color: #999;
+        display: inline-block;
+ 	    line-height: 20px;
+        width: 125px;
+		height: 15px;
+       }
+      .container button1:hover {
+        animation: colorShift 1s infinite linear;
+       }
+      .container button:hover {
+        animation: colorShift 1s infinite linear;
+       }
+		@keyframes colorShift {
+		 0% { color:hsl(0,100%,50%);border-color:hsl(0,100%,50%);}
+		 16% { color:hsl(60,100%,50%);border-color:hsl(60,100%,50%);}
+ 		 50% { color:hsl(180,100%,50%);border-color:hsl(180,100%,50%);}
+ 		 66% { color:hsl(240,100%,50%);border-color:hsl(240,100%,50%);}
+ 		 83% { color:hsl(300,100%,50%);border-color:hsl(300,100%,50%);}
+ 		 100% { color:hsl(360,100%,50%);border-color:hsl(360,100%,50%);}
+       }
+      @media (max-width: 600px) {
+        .container {
+          width: 95%;
+       }
+      }
+    </style>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+  </head>
+<body>
+<div class="container">
+<svg/>
+<img src="images/logo.png"
+		alt="hub"
+        class="logo"
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        viewBox="0 0 1001 209"
+        <path fill="#77787B"/>
+<p>
+<button1 onclick="window.location.href='.archa a-z/A/A.html'">Puzzle view</button1>
+<button1 onclick="window.location.href='.archa a-z/D/D.html'">Collection</button1>
+<button1 onclick="window.location.href='.archa a-z/E/E.html'">Solved</button1>
+<button1 onclick="window.location.href='.archa a-z/C/C.html'">Hint</button1>
+<button1 onclick="window.location.href='.archa a-z/B/B.html'">Map</button1>
+<br><br>
+<br><br>
+<button onclick="window.location.href='log-cyphers.html'">admin</button>
+    </div>
+  </body>
+</html>
